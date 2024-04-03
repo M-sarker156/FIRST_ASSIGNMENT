@@ -1,0 +1,34 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7c0c0; 
+}
+.image{
+    display: inline-block;
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 100%; 
+}
+
+.profile-card {
+    width: 250px;
+    height: auto;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    text-align: center; 
+    
+}
+
+.profile-card p {  
+   font-weight: 600;
+}
+
+
